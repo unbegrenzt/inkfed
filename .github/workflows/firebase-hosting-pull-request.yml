@@ -27,4 +27,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_INKFED_F18A9 }}
           channelId: live
-          projectId: inkfed-f18a9
+          projectId: inkfed-90f15
