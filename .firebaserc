@@ -1,5 +1,12 @@
 {
   "projects": {
     "default": "inkfed-90f15"
-  }
+  },
+  "targets": {},
+  "etags": {
+    "inkfed-90f15": {
+      "extensionInstances": {}
+    }
+  },
+  "dataconnectEmulatorConfig": {}
 }

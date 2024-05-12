@@ -1,10 +1,17 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/inkfed.svg'
 import './App.css'
+import i18n from 'locales/';
 
 function App() {
   const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    fetch('/__/firebase/init.json').then(async response => {
+      console.log(await response.json())
+    });
+  }, []);
 
   return (
     <>
@@ -26,7 +33,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        {i18n.t('Welcome to React')}
       </p>
     </>
   )
