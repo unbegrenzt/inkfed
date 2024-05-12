@@ -24,16 +24,19 @@
     "baseUrl": "./",
     "paths": {
       "assets/*": [
-        "./assets/*"
+        "./src/assets/*"
       ],
       "locales/*": [
-        "./locales/*"
+        "./src/locales/*"
       ],
       "components/*": [
-        "./components/*"
+        "./src/components/*"
       ],
       "hooks/*": [
-        "./hooks/*"
+        "./src/hooks/*"
+      ],
+      "types/*": [
+        "./src/types/*"
       ],
     }
   },

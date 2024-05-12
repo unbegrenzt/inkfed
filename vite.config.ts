@@ -9,7 +9,8 @@ export default defineConfig({
       assets: "/src/assets",
       locales: "/src/locales",
       components: "/src/components",
-      hooks: "/src/hooks"
+      hooks: "/src/hooks",
+      types: "/src/types"
     },
   },
 })
